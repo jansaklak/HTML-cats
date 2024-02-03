@@ -1,0 +1,136 @@
+body { 
+    background-color: rgb(114, 204, 204);
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.site #main { 
+    background-color: rgba(226, 224, 218, 0.637);
+    margin: 0 auto;
+    width: 80%;
+    height:auto;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    border: 1px solid #FFFFFF;
+}
+.site #header { 
+    background: rgba(230, 195, 99, 0.562);
+    margin-top: 10px;
+    padding-top: 40px;
+    height: 80px;
+    font-size:xx-large;
+    text-align: center;
+}
+.site #header h1 { 
+    margin: 0;
+    padding: 0px 0px;
+    font-family: Verdana;
+    font-size: xx-large;
+}
+.site #maincontent { 
+    margin: 2px;
+    padding: 0 0px 0 0px;
+}
+.site #maincontent #sidebarLeft { 
+    float: left;
+    width: 155px;
+    background: #FFFFFF;
+    padding: 1px 0px 0px 1px;
+}
+.site #maincontent #content { 
+    border-left-color: #000000;
+    border-right-color: #000000;
+    border-left-style: ridge;
+    border-left-width: 5px;
+    border-right-style:ridge;
+    border-right-width: 5px;
+    margin: 5px 5px 5px 168px;
+    padding: 0 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    text-align: justify;
+    font-size: large;
+}
+.site #foot { 
+    background: rgba(211, 7, 238, 0.13);
+    margin: 2px;
+    padding: 0 0px 0 0px;
+    height: 30px;
+}
+.site #foot p { 
+    padding: 0px 10px;
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+#menu { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+#menu li {
+    background: rgba(66, 127, 197, 0.596);
+    font-family: "Courier New", Courier, serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 155px;
+}
+#menu a { 
+    display: block;
+    border-bottom: 2px solid #ffffff36;
+    border-top: 2px solid #ffffff44;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+#menu a:hover { 
+    background: #0fdbff;
+    color: #000000;
+    font-weight: bold;
+} 
+
+ol {
+    text-decoration: double;
+    padding-left: 10;
+}
+
+ul {
+    list-style-type:square;
+}
+
+img {
+    width:80%;
+    height:auto;
+}
+
+figcaption {
+    font-style:italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    font-weight: normal;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
